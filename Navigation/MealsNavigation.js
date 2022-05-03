@@ -17,8 +17,7 @@ const MealsNavigator = createStackNavigator(
   {
     defautNavigationOptions: {
       headerStyle: {
-        backgroundColor:
-          Platform.OS == 'android' ? Colours.primaryColour : 'white',
+        backgroundColor: Platform.OS === 'android' ? Colours.primaryColour : '',
       },
     },
     headerTintColor:
